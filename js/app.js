@@ -2,7 +2,7 @@ const items = document.getElementById('items')
 
 
 const alumno1 = {
-  name: 'Amure Angel',
+  name: 'Amure, Angel',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
@@ -10,7 +10,7 @@ const alumno1 = {
   puntaje: 1
 }
 const alumno2 = {
-  name: 'Cuenca Agostina',
+  name: 'Cuenca, Agostina',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
@@ -18,7 +18,7 @@ const alumno2 = {
   puntaje: 1 
 }
 const alumno3 = {
-  name: 'Dotto Matias',
+  name: 'Dotto, Matias',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
@@ -26,7 +26,7 @@ const alumno3 = {
   puntaje: 1
 }
 const alumno4 = {
-  name: 'Lucero Morena',
+  name: 'Lucero, Morena',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
@@ -34,7 +34,7 @@ const alumno4 = {
   puntaje: 1
 }
 const alumno5 = {
-  name: 'Monzón Abril',
+  name: 'Monzón, Abril',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
@@ -42,7 +42,7 @@ const alumno5 = {
   puntaje: 1
 }
 const alumno6 = {
-  name: 'Páez Victoria',
+  name: 'Páez, Victoria',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
@@ -50,7 +50,7 @@ const alumno6 = {
   puntaje: 1
 }
 const alumno7 = {
-  name: 'Perez Alma',
+  name: 'Perez, Alma',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
@@ -58,7 +58,7 @@ const alumno7 = {
   puntaje: 1
 }
 const alumno8 = {
-  name: 'Quiroga Ramiro',
+  name: 'Quiroga, Ramiro',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
@@ -66,7 +66,7 @@ const alumno8 = {
   puntaje: 1
 }
 const alumno9 = {
-  name: 'Roux Abigail',
+  name: 'Roux, Abigail',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
@@ -74,7 +74,7 @@ const alumno9 = {
   puntaje: 1
 }
 const alumno10 = {
-  name: 'Roux Emilio',
+  name: 'Roux, Emilio',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
@@ -82,7 +82,7 @@ const alumno10 = {
   puntaje: 1
 }
 const alumno11 = {
-  name: 'Sandobal Yazmin',
+  name: 'Sandobal, Yazmin',
   asistencias: 1,
   modulos: 0,
   evaluaciones: 0,
