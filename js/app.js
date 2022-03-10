@@ -3,11 +3,11 @@ const items = document.getElementById('items')
 
 const alumno1 = {
   name: 'Amure, Angel',
-  asistencias: 2,
+  asistencias: 3,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 2
+  puntaje: 3
 }
 const alumno2 = {
   name: 'Cuenca, Agostina',
@@ -27,35 +27,35 @@ const alumno3 = {
 }
 const alumno4 = {
   name: 'Lucero, Morena',
-  asistencias: 2,
+  asistencias: 3,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 2
+  puntaje: 3
 }
 const alumno5 = {
   name: 'Monzón, Abril',
-  asistencias: 2,
+  asistencias: 3,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 2
+  puntaje: 3
 }
 const alumno6 = {
   name: 'Páez, Victoria',
-  asistencias: 2,
+  asistencias: 3,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 2
+  puntaje: 3
 }
 const alumno7 = {
   name: 'Perez, Alma',
-  asistencias: 2,
+  asistencias: 3,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 2
+  puntaje: 3
 }
 const alumno8 = {
   name: 'Quiroga, Ramiro',
@@ -83,12 +83,30 @@ const alumno10 = {
 }
 const alumno11 = {
   name: 'Sandobal, Yazmin',
+  asistencias: 3,
+  modulos: 0,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 3
+}
+const alumno12 = {
+  name: 'Valderrama, Sheila',
   asistencias: 2,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
   puntaje: 2
 }
+const alumno13 = {
+  name: 'Chaile, Daiana',
+  asistencias: 2,
+  modulos: 0,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 2
+}
+
+
 
 
 items.innerHTML = `
@@ -100,22 +118,7 @@ items.innerHTML = `
   <td>${alumno1.recuperatorios}</td>
   <td>${alumno1.puntaje}</td>
 </tr>
-<tr>
-  <td><i class="bi-trophy-fill"></i> ${alumno2.name}</td>
-  <td>${alumno2.asistencias}</td>
-  <td>${alumno2.modulos}</td>
-  <td>${alumno2.evaluaciones}</td>
-  <td>${alumno2.recuperatorios}</td>
-  <td>${alumno2.puntaje}</td>
-</tr>
-<tr>
-  <td><i class="bi-trophy-fill"></i> ${alumno3.name}</td>
-  <td>${alumno3.asistencias}</td>
-  <td>${alumno3.modulos}</td>
-  <td>${alumno3.evaluaciones}</td>
-  <td>${alumno3.recuperatorios}</td>
-  <td>${alumno3.puntaje}</td>
-</tr>
+
 <tr>
   <td><i class="bi-trophy-fill"></i> ${alumno4.name}</td>
   <td>${alumno4.asistencias}</td>
@@ -149,6 +152,14 @@ items.innerHTML = `
   <td>${alumno7.puntaje}</td>
 </tr>
 <tr>
+  <td><i class="bi-trophy-fill"></i> ${alumno11.name}</td>
+  <td>${alumno11.asistencias}</td>
+  <td>${alumno11.modulos}</td>
+  <td>${alumno11.evaluaciones}</td>
+  <td>${alumno11.recuperatorios}</td>
+  <td>${alumno11.puntaje}</td>
+</tr>
+<tr>
   <td><i class="bi-trophy-fill"></i> ${alumno8.name}</td>
   <td>${alumno8.asistencias}</td>
   <td>${alumno8.modulos}</td>
@@ -172,14 +183,40 @@ items.innerHTML = `
   <td>${alumno10.recuperatorios}</td>
   <td>${alumno10.puntaje}</td>
 </tr>
+
 <tr>
-  <td><i class="bi-trophy-fill"></i> ${alumno11.name}</td>
-  <td>${alumno11.asistencias}</td>
-  <td>${alumno11.modulos}</td>
-  <td>${alumno11.evaluaciones}</td>
-  <td>${alumno11.recuperatorios}</td>
-  <td>${alumno11.puntaje}</td>
+  <td><i class="bi-trophy-fill"></i> ${alumno12.name}</td>
+  <td>${alumno12.asistencias}</td>
+  <td>${alumno12.modulos}</td>
+  <td>${alumno12.evaluaciones}</td>
+  <td>${alumno12.recuperatorios}</td>
+  <td>${alumno12.puntaje}</td>
 </tr>
+<tr>
+  <td><i class="bi-trophy-fill"></i> ${alumno13.name}</td>
+  <td>${alumno13.asistencias}</td>
+  <td>${alumno13.modulos}</td>
+  <td>${alumno13.evaluaciones}</td>
+  <td>${alumno13.recuperatorios}</td>
+  <td>${alumno13.puntaje}</td>
+</tr>
+<tr>
+  <td><i class="bi-trophy-fill"></i> ${alumno2.name}</td>
+  <td>${alumno2.asistencias}</td>
+  <td>${alumno2.modulos}</td>
+  <td>${alumno2.evaluaciones}</td>
+  <td>${alumno2.recuperatorios}</td>
+  <td>${alumno2.puntaje}</td>
+</tr>
+<tr>
+  <td><i class="bi-trophy-fill"></i> ${alumno3.name}</td>
+  <td>${alumno3.asistencias}</td>
+  <td>${alumno3.modulos}</td>
+  <td>${alumno3.evaluaciones}</td>
+  <td>${alumno3.recuperatorios}</td>
+  <td>${alumno3.puntaje}</td>
+</tr>
+
 
 
 `;
