@@ -3,19 +3,19 @@ const items = document.getElementById('items')
 
 const alumno1 = {
   name: 'Amure, Angel',
+  asistencias: 4,
+  modulos: 0,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 4
+}
+const alumno2 = {
+  name: 'Cuenca, Agostina',
   asistencias: 3,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
   puntaje: 3
-}
-const alumno2 = {
-  name: 'Cuenca, Agostina',
-  asistencias: 2,
-  modulos: 0,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 2
 }
 const alumno3 = {
   name: 'Dotto, Matias',
@@ -27,83 +27,83 @@ const alumno3 = {
 }
 const alumno4 = {
   name: 'Lucero, Morena',
-  asistencias: 3,
+  asistencias: 4,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 3
+  puntaje: 4
 }
 const alumno5 = {
   name: 'Monzón, Abril',
-  asistencias: 3,
+  asistencias: 4,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 3
+  puntaje: 4
 }
 const alumno6 = {
   name: 'Páez, Victoria',
-  asistencias: 3,
+  asistencias: 4,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 3
+  puntaje: 4
 }
 const alumno7 = {
   name: 'Perez, Alma',
-  asistencias: 3,
+  asistencias: 4,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 3
+  puntaje: 4
 }
 const alumno8 = {
   name: 'Quiroga, Ramiro',
-  asistencias: 2,
-  modulos: 0,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 2
-}
-const alumno9 = {
-  name: 'Roux, Abigail',
-  asistencias: 2,
-  modulos: 0,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 2
-}
-const alumno10 = {
-  name: 'Roux, Emilio',
-  asistencias: 2,
-  modulos: 0,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 2
-}
-const alumno11 = {
-  name: 'Sandobal, Yazmin',
   asistencias: 3,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
   puntaje: 3
 }
-const alumno12 = {
-  name: 'Valderrama, Sheila',
-  asistencias: 2,
+const alumno9 = {
+  name: 'Roux, Abigail',
+  asistencias: 3,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 2
+  puntaje: 3
+}
+const alumno10 = {
+  name: 'Roux, Emilio',
+  asistencias: 3,
+  modulos: 0,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 3
+}
+const alumno11 = {
+  name: 'Sandobal, Yazmin',
+  asistencias: 4,
+  modulos: 0,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 4
+}
+const alumno12 = {
+  name: 'Valderrama, Sheila',
+  asistencias: 3,
+  modulos: 0,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 3
 }
 const alumno13 = {
   name: 'Chaile, Daiana',
-  asistencias: 2,
+  asistencias: 3,
   modulos: 0,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 2
+  puntaje: 3
 }
 
 
