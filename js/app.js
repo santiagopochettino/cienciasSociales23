@@ -3,24 +3,15 @@ const items = document.getElementById('items')
 
 const alumno1 = {
   name: 'Amure, Angel',
-  asistencias: 6,
+  asistencias: 7,
   tbc:0,
   modulos: 'N/E',
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 6
+  puntaje: 7
 }
 const alumno2 = {
   name: 'Cuenca, Agostina',
-  asistencias: 5,
-  tbc:0,
-  modulos: 5,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 10
-}
-const alumno3 = {
-  name: 'Lucero, Morena',
   asistencias: 6,
   tbc:0,
   modulos: 5,
@@ -28,78 +19,87 @@ const alumno3 = {
   recuperatorios: 0,
   puntaje: 11
 }
+const alumno3 = {
+  name: 'Lucero, Morena',
+  asistencias: 7,
+  tbc:0,
+  modulos: 5,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 12
+}
 
 const alumno4 = {
   name: 'Monzón, Abril',
-  asistencias: 6,
+  asistencias: 7,
   tbc:0,
   modulos: 'N/E',
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 6
+  puntaje: 7
 }
 const alumno5 = {
   name: 'Páez, Victoria',
-  asistencias: 6,
+  asistencias: 7,
   tbc:0,
   modulos: 'N/E',
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 6
+  puntaje: 7
 }
 const alumno6 = {
   name: 'Perez, Alma',
-  asistencias: 5,
+  asistencias: 6,
   tbc:0,
   modulos: 4,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 9
+  puntaje: 10
 }
 const alumno7 = {
   name: 'Quiroga, Ramiro',
-  asistencias: 5,
+  asistencias: 6,
   tbc:0,
   modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 10
+  puntaje: 11
 }
 const alumno8 = {
   name: 'Roux, Abigail',
-  asistencias: 5,
+  asistencias: 6,
   tbc:0,
   modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 10
+  puntaje: 11
 }
 const alumno9 = {
   name: 'Sandobal, Yazmin',
-  asistencias: 5,
+  asistencias: 6,
   tbc:0,
   modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 10
+  puntaje: 11
 }
 const alumno10 = {
   name: 'Valderrama, Sheila',
-  asistencias: 4,
-  tbc:0,
-  modulos: 5,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 9
-}
-const alumno11 = {
-  name: 'Chaile, Daiana',
   asistencias: 5,
   tbc:0,
   modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
   puntaje: 10
+}
+const alumno11 = {
+  name: 'Chaile, Daiana',
+  asistencias: 6,
+  tbc:0,
+  modulos: 5,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 11
 }
 const alumno12 ={
   name: 'Ale, Uriel',
