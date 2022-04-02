@@ -11618,3 +11618,27 @@ header.mastheadContenidos h1, header.mastheadContenidos .h1 {
   background-color: #f4623a;
   color: #fff;
 }
+/****************************************/
+/*/video*/
+.video{
+  height:600px;
+  border-radius: 50px;
+ }
+ .video-h1{
+   font-family: 'Fredericka the Great', cursive;
+ }
+ @media (max-width:1400px) {
+  .video{
+    height:500px;
+    border-radius: 0px;
+
+   }
+}
+@media (max-width: 768px) {
+  .video{
+    height:170px;
+    border-radius: 0px;
+  margin-left: -4px;
+
+   }
+}
