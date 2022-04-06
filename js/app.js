@@ -5,10 +5,10 @@ const alumno1 = {
   name: 'Amure, Angel',
   asistencias: 9,
   tbc:1,
-  modulos: 'N/E',
+  modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 10
+  puntaje: 15
 }
 const alumno2 = {
   name: 'Cuenca, Agostina',
@@ -33,19 +33,19 @@ const alumno4 = {
   name: 'Monzón, Abril',
   asistencias: 9,
   tbc:1,
-  modulos: 'N/E',
+  modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 10
+  puntaje: 15
 }
 const alumno5 = {
   name: 'Páez, Victoria',
   asistencias: 9,
   tbc:1,
-  modulos: 'N/E',
+  modulos: 4,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 10
+  puntaje: 14
 }
 const alumno6 = {
   name: 'Perez, Alma',
@@ -142,6 +142,35 @@ items.innerHTML = `
   <td>${alumno3.recuperatorios}</td>
   <td>${alumno3.puntaje}</td>
 </tr>
+
+<tr>
+  <td><i class="bi-trophy-fill"></i> ${alumno1.name}</td>
+  <td>${alumno1.asistencias}</td>
+  <td>${alumno1.tbc}</td>
+  <td>${alumno1.modulos}</td>
+  <td>${alumno1.evaluaciones}</td>
+  <td>${alumno1.recuperatorios}</td>
+  <td>${alumno1.puntaje}</td>
+</tr>
+<tr>
+  <td><i class="bi-trophy-fill"></i> ${alumno4.name}</td>
+  <td>${alumno4.asistencias}</td>
+  <td>${alumno4.tbc}</td>
+  <td>${alumno4.modulos}</td>
+  <td>${alumno4.evaluaciones}</td>
+  <td>${alumno4.recuperatorios}</td>
+  <td>${alumno4.puntaje}</td>
+</tr>
+
+<tr>
+  <td><i class="bi-trophy-fill"></i> ${alumno5.name}</td>
+  <td>${alumno5.asistencias}</td>
+  <td>${alumno5.tbc}</td>
+  <td>${alumno5.modulos}</td>
+  <td>${alumno5.evaluaciones}</td>
+  <td>${alumno5.recuperatorios}</td>
+  <td>${alumno5.puntaje}</td>
+</tr>
 <tr>
   <td><i class="bi-trophy-fill"></i> ${alumno7.name}</td>
   <td>${alumno7.asistencias}</td>
@@ -208,35 +237,8 @@ items.innerHTML = `
   <td>${alumno10.recuperatorios}</td>
   <td>${alumno10.puntaje}</td>
 </tr>
-<tr>
-  <td><i class="bi-trophy-fill"></i> ${alumno4.name}</td>
-  <td>${alumno4.asistencias}</td>
-  <td>${alumno4.tbc}</td>
-  <td>${alumno4.modulos}</td>
-  <td>${alumno4.evaluaciones}</td>
-  <td>${alumno4.recuperatorios}</td>
-  <td>${alumno4.puntaje}</td>
-</tr>
 
-<tr>
-  <td><i class="bi-trophy-fill"></i> ${alumno5.name}</td>
-  <td>${alumno5.asistencias}</td>
-  <td>${alumno5.tbc}</td>
-  <td>${alumno5.modulos}</td>
-  <td>${alumno5.evaluaciones}</td>
-  <td>${alumno5.recuperatorios}</td>
-  <td>${alumno5.puntaje}</td>
-</tr>
 
-<tr>
-  <td><i class="bi-trophy-fill"></i> ${alumno1.name}</td>
-  <td>${alumno1.asistencias}</td>
-  <td>${alumno1.tbc}</td>
-  <td>${alumno1.modulos}</td>
-  <td>${alumno1.evaluaciones}</td>
-  <td>${alumno1.recuperatorios}</td>
-  <td>${alumno1.puntaje}</td>
-</tr>
 <tr>
   <td><i class="bi-trophy-fill"></i> ${alumno12.name}</td>
   <td>${alumno12.asistencias}</td>
