@@ -3,121 +3,121 @@ const items = document.getElementById('items')
 
 const alumno1 = {
   name: 'Amure, Angel',
-  asistencias: 11,
-  tbc:3,
+  asistencias: 12,
+  tbc:4,
   modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 19
+  puntaje: 21
 }
 const alumno2 = {
   name: 'Cuenca, Agostina',
-  asistencias: 10,
-  tbc:3,
+  asistencias: 11,
+  tbc:4,
   modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 18
+  puntaje: 20
 }
 const alumno3 = {
   name: 'Lucero, Morena',
-  asistencias: 11,
-  tbc:3,
+  asistencias: 12,
+  tbc:4,
   modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 19
+  puntaje: 21
 }
 
 const alumno4 = {
   name: 'Monzón, Abril',
+  asistencias: 12,
+  tbc:4,
+  modulos: 5,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 21
+}
+const alumno5 = {
+  name: 'Páez, Victoria',
+  asistencias: 12,
+  tbc:4,
+  modulos: 4,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 20
+}
+const alumno6 = {
+  name: 'Perez, Alma',
   asistencias: 11,
-  tbc:3,
+  tbc:4,
+  modulos: 4,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 19
+}
+const alumno7 = {
+  name: 'Quiroga, Ramiro',
+  asistencias: 11,
+  tbc:4,
+  modulos: 5,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 20
+}
+const alumno8 = {
+  name: 'Roux, Abigail',
+  asistencias: 11,
+  tbc:4,
+  modulos: 5,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 20
+}
+const alumno9 = {
+  name: 'Sandobal, Yazmin',
+  asistencias: 11,
+  tbc:4,
+  modulos: 5,
+  evaluaciones: 0,
+  recuperatorios: 0,
+  puntaje: 20
+}
+const alumno10 = {
+  name: 'Valderrama, Sheila',
+  asistencias: 10,
+  tbc:4,
   modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
   puntaje: 19
 }
-const alumno5 = {
-  name: 'Páez, Victoria',
-  asistencias: 11,
-  tbc:3,
-  modulos: 4,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 18
-}
-const alumno6 = {
-  name: 'Perez, Alma',
-  asistencias: 10,
-  tbc:3,
-  modulos: 4,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 17
-}
-const alumno7 = {
-  name: 'Quiroga, Ramiro',
-  asistencias: 10,
-  tbc:3,
-  modulos: 5,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 18
-}
-const alumno8 = {
-  name: 'Roux, Abigail',
-  asistencias: 10,
-  tbc:3,
-  modulos: 5,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 18
-}
-const alumno9 = {
-  name: 'Sandobal, Yazmin',
-  asistencias: 10,
-  tbc:3,
-  modulos: 5,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 18
-}
-const alumno10 = {
-  name: 'Valderrama, Sheila',
-  asistencias: 9,
-  tbc:3,
-  modulos: 5,
-  evaluaciones: 0,
-  recuperatorios: 0,
-  puntaje: 17
-}
 const alumno11 = {
   name: 'Chaile, Daiana',
-  asistencias: 10,
-  tbc:3,
+  asistencias: 11,
+  tbc:4,
   modulos: 5,
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 18
+  puntaje: 20
 }
 const alumno12 ={
   name: 'Ale, Uriel',
-  asistencias: 4,
-  tbc:2,
+  asistencias: 5,
+  tbc:3,
   modulos: 'N/E',
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 6
+  puntaje: 8
 }
 const alumno13 ={
   name: 'Palena, Valentina',
-  asistencias: 4,
-  tbc:3,
+  asistencias: 5,
+  tbc:4,
   modulos:'N/E',
   evaluaciones: 0,
   recuperatorios: 0,
-  puntaje: 7
+  puntaje: 9
 }
 const alumno14 ={
   name: 'Rubieda, Nicolas',
@@ -134,16 +134,6 @@ const alumno14 ={
 
 items.innerHTML = `
 
-
-<tr>
-  <td><i class="bi-trophy-fill"></i> ${alumno1.name}</td>
-  <td>${alumno1.asistencias}</td>
-  <td>${alumno1.tbc}</td>
-  <td>${alumno1.modulos}</td>
-  <td>${alumno1.evaluaciones}</td>
-  <td>${alumno1.recuperatorios}</td>
-  <td>${alumno1.puntaje}</td>
-</tr>
 <tr>
   <td><i class="bi-trophy-fill"></i> ${alumno4.name}</td>
   <td>${alumno4.asistencias}</td>
@@ -153,6 +143,16 @@ items.innerHTML = `
   <td>${alumno4.recuperatorios}</td>
   <td>${alumno4.puntaje}</td>
 </tr>
+<tr>
+  <td><i class="bi-trophy-fill"></i> ${alumno1.name}</td>
+  <td>${alumno1.asistencias}</td>
+  <td>${alumno1.tbc}</td>
+  <td>${alumno1.modulos}</td>
+  <td>${alumno1.evaluaciones}</td>
+  <td>${alumno1.recuperatorios}</td>
+  <td>${alumno1.puntaje}</td>
+</tr>
+
 <tr>
   <td><i class="bi-trophy-fill"></i> ${alumno3.name}</td>
   <td>${alumno3.asistencias}</td>
