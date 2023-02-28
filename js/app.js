@@ -106,7 +106,7 @@ const alumno15 ={
   asistencias: 0,
   tbc: 0,
   modulos:0,
-  evaluaciones: 0,
+  evaluaciones: '-',
   recuperatorios: '-',
   puntaje: 0
 }
