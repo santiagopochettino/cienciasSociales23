@@ -2,126 +2,126 @@ const items = document.getElementById('items')
 
 const alumno1 = {
   name: 'Amure, Angel',
-  asistencias: 5,
-  tbc:5,
+  asistencias: 0,
+  tbc:0,
   modulos: 0,
-  evaluaciones: 9,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 19
+  puntaje: 0
 }
 const alumno2 = {
   name: 'Cuenca, Agostina',
-  asistencias: 8,
-  tbc: 8,
+  asistencias: 0,
+  tbc: 0,
   modulos: 0,
-  evaluaciones: 4,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 20
+  puntaje: 0
 }
 
 const alumno4 = {
   name: 'Monzón, Abril',
-  asistencias:  7,
-  tbc: 7,
+  asistencias:  0,
+  tbc: 0,
   modulos: 0,
-  evaluaciones: 6,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 20
+  puntaje: 0
 }
 const alumno5 = {
   name: 'Páez, Victoria',
-  asistencias: 8,
-  tbc: 8,
+  asistencias: 0,
+  tbc: 0,
   modulos: 0,
-  evaluaciones: 8,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 24
+  puntaje: 0
 }
 const alumno6 = {
   name: 'Perez, Alma',
-  asistencias: 8,
-  tbc: 8,
+  asistencias: 0,
+  tbc: 0,
   modulos: 0,
-  evaluaciones: 8,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 24
+  puntaje: 0
 }
 const alumno7 = {
   name: 'Quiroga, Ramiro',
-  asistencias: 7,
-  tbc: 7,
+  asistencias: 0,
+  tbc: 0,
   modulos: 0,
-  evaluaciones: 8,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 22
+  puntaje: 0
 }
 const alumno8 = {
   name: 'Roux, Abigail',
-  asistencias: 8,
-  tbc: 8,
+  asistencias: 0,
+  tbc: 0,
   modulos: 0,
-  evaluaciones: 8,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 24
+  puntaje: 0
 }
 
 const alumno10 = {
   name: 'Valderrama, Sheila',
-  asistencias: 7,
-  tbc: 7,
+  asistencias: 0,
+  tbc: 0,
   modulos: 0,
-  evaluaciones: 2,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 16
+  puntaje: 0
 }
 const alumno12 ={
   name: 'Ale, Uriel',
-  asistencias: 8,
-  tbc: 8,
+  asistencias: 0,
+  tbc: 0,
   modulos: 0,
-  evaluaciones: 4,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 20
+  puntaje: 0
 }
 const alumno13 ={
   name: 'Palena, Valentina',
-  asistencias: 8,
-  tbc: 8,
+  asistencias: 0,
+  tbc: 0,
   modulos:0,
-  evaluaciones: 7,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 23
+  puntaje: 0
 }
 const alumno14 ={
   name: 'Rubieda, Nicolas',
-  asistencias: 3,
-  tbc: 3,
+  asistencias: 0,
+  tbc: 0,
   modulos:0,
-  evaluaciones: 'Aus',
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 6
+  puntaje: 0
 }
 const alumno15 ={
   name: 'Orozco, Joaquin',
-  asistencias: 7,
-  tbc: 7,
+  asistencias: 0,
+  tbc: 0,
   modulos:0,
-  evaluaciones: 10,
+  evaluaciones: 0,
   recuperatorios: '-',
-  puntaje: 24
+  puntaje: 0
 }
 const alumno16 ={
   name: 'Morales, Lautaro',
-  asistencias: 3,
-  tbc: 3,
+  asistencias: 0,
+  tbc: 0,
   modulos:0,
-  evaluaciones: 2,
+  evaluaciones: '-',
   recuperatorios: '-',
-  puntaje: 8
+  puntaje: 0
 }
 
 
-
+//<i class="bi-star-fill"></i>   estrella del 10
 
 
 items.innerHTML = `
@@ -131,7 +131,7 @@ items.innerHTML = `
   <td>${alumno15.asistencias}</td>
   <td>${alumno15.tbc}</td>
   <td>${alumno15.modulos}</td>
-  <td><i class="bi-star-fill"></i>  ${alumno15.evaluaciones}</td>
+  <td> ${alumno15.evaluaciones}</td>
   <td>${alumno15.recuperatorios}</td>
   <td>${alumno15.puntaje}</td>
 </tr>
